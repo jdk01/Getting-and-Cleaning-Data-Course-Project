@@ -16,7 +16,7 @@ This code book codebook summarises the fields from `tidy_data.txt`
 The values in each variable is the average for either mean (average) or std (standard deviation) of the measurement when an activity is performed by the subject. I made some changes from the original dataset to improve clarity in the names of the variables. The first letter for each variable was either "t" or "f" and I changed them to "time" and "freq" respectively. 
 
 "Acc" in the variables indicates that the measurement was taken by accelerometer.
-"Gyro"" in the variables indicates that the measurement was taken by gyroscope.
+"Gyro" in the variables indicates that the measurement was taken by gyroscope.
 
 Below are the 66 variables in the `tidy_data.txt`:
 
