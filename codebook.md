@@ -1,10 +1,10 @@
 # Codebook
 
-This code book codebook summarises the fields from 'tidy_data.txt'
+This code book codebook summarises the fields from `tidy_data.txt`
 
 ## Identifiers
-* 'Subject'     : ID of the subject who performed the activity for each window sample. It ranges between 1 to 30
-* 'Activity'    : Name of activity that is performed by the subject when measurement is taken. They are:
+* `Subject`     : ID of the subject who performed the activity for each window sample. It ranges between 1 to 30
+* `Activity`    : Name of activity that is performed by the subject when measurement is taken. They are:
                         1. walking
                         2. walking_upstairs
                         3. walking_downstairs
@@ -15,10 +15,10 @@ This code book codebook summarises the fields from 'tidy_data.txt'
 ## Variables
 The values in each variable is the average for either mean (average) or std (standard deviation) of the measurement when an activity is performed by the subject. I made some changes from the original dataset to improve clarity in the names of the variables. The first letter for each variable was either "t" or "f" and I changed them to "time" and "freq" respectively. 
 
-'Acc' in the variables indicates that the measurement was taken by accelerometer.
-'Gyro' in the variables indicates that the measurement was taken by gyroscope.
+"Acc" in the variables indicates that the measurement was taken by accelerometer.
+"Gyro"" in the variables indicates that the measurement was taken by gyroscope.
 
-Below are the 66 variables in the 'tidy_data.txt':
+Below are the 66 variables in the `tidy_data.txt`:
 
 * timeBodyAcc-mean-X
 * timeBodyAcc-mean-Y
